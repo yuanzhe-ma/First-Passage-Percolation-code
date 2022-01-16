@@ -267,8 +267,7 @@ if __name__ == "__main__":
     assert len(sys.argv) > 1 # Make sure an argument is given
     job_index = int(sys.argv[1]) # convert the CLI to an integer
 
-    # This is not necessary if you start the code in this directory. (my recommendation)
-    dir = '/nv/hp16/yma412/data/1111'
+     dir = '/nv/hp16/yma412/data/1111'
     os.chdir(dir)
 
     # Run the simulation with the index
